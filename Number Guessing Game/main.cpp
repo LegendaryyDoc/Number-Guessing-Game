@@ -50,6 +50,7 @@ int main()
 
 	while (true)
 	{
+		std::cout << "Min: " << min << " || " << "Max: " << max << std::endl;
 		std::cout << "Is your number "<< guess << "?"<<std::endl;
 
 		attempts++;
